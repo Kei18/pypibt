@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  push:
+    paths:
+      - 'pypibt/**'
+      - 'app.py'
+      - 'tests/**'
+      - '.github/**'
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - uses: snok/install-poetry@v1
+      - run: poetry run pytest
