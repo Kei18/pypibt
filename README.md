@@ -1,10 +1,10 @@
 # pypibt
 
-[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](./LICENCE.txt)
 [![CI](https://github.com/Kei18/pypibt/actions/workflows/ci.yml/badge.svg)](https://github.com/Kei18/pypibt/actions/workflows/ci.yml)
 
 A minimal python implementation of Priority Inheritance with Backtracking (PIBT) for Multi-Agent Path Finding (MAPF).
-If you are just interested in moving hundreds of agents in a short period of time, PIBT may be a nice tool.
+If you are just interested in moving hundreds of agents or more in a short period of time, PIBT may work as a powerful tool.
 
 - Okumura, K., Machida, M., Défago, X., & Tamura, Y. Priority inheritance with backtracking for iterative multi-agent path finding. AIJ. 2022. [[project-page]](https://kei18.github.io/pibt2/)
 
@@ -39,7 +39,7 @@ poetry run python app.py -m assets/random-32-32-10.map -i assets/random-32-32-10
 ```
 
 The result will be saved in `output.txt`
-The grid maps and scenarios in assets/ are from [MAPF benchmarks](https://movingai.com/benchmarks/mapf/index.html).
+The grid maps and scenarios in `assets/` are from [MAPF benchmarks](https://movingai.com/benchmarks/mapf/index.html).
 
 ### visualization
 
