@@ -1,7 +1,7 @@
 [project]
 name = "pypibt-mapd"
 version = "0.1.0"
-description = "Python implementation of Priority Inheritance with Backtracking for MAPF and MAPD - Extended version of pypibt with Multi-Agent Pickup and Delivery support"
+description = "PIBT for MAPF, MAPD, and Graph MAPD — extended from pypibt with directed-graph fleet support"
 authors = [
     { name = "Marvin Rüdt", email = "marvin.ruedt@gmx.de" },
     { name = "Keisuke Okumura", email = "keisuke.oku18@gmail.com" }
@@ -21,9 +21,7 @@ classifiers = [
 ]
 dependencies = [
     "numpy>=1.25.1",
-    "jupyterlab>=3.0.0,<4.0.0a0",
     "matplotlib>=3.7.2",
-    "pytest>=7.4.0",
 ]
 
 [project.urls]
@@ -34,6 +32,8 @@ Repository = "https://github.com/marvin-rdt/pypibt-mapd"
 
 [dependency-groups]
 dev = [
+    "pytest>=7.4.0",
+    "jupyterlab>=4.0.0",
     "jupyterlab-lsp>=4.2.0",
     "jupyterlab-code-formatter>=2.2.1",
     "black>=23.7.0",

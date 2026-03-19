@@ -1,0 +1,3132 @@
+{
+    "metaInformation": {
+        "projectIdentification": "Project_1",
+        "creator": "KIT_IFL",
+        "exportTimestamp": "2026-03-19T08:45:53.96Z",
+        "lifVersion": "1.0.0"
+    },
+    "layouts": [
+        {
+            "layoutId": "Layout_1",
+            "layoutVersion": "1",
+            "layoutLevelId": "Level_1",
+            "layoutName": "Layout_1",
+            "nodes": [
+                {
+                    "nodeId": "N1",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 6.0,
+                        "y": 11.0
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N2",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 2.5,
+                        "y": 20.5
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N3",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 11.0,
+                        "y": 19.5
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N4",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 1.5,
+                        "y": 14.7
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N5",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 13.0,
+                        "y": 2.5
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N6",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 6.0,
+                        "y": 2.5
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N7",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 4.4,
+                        "y": 10.8
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N8",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 8.1,
+                        "y": 11.6
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N9",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 8.1,
+                        "y": 7.4
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N10",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 4.4,
+                        "y": 7.4
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N11",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 6.4,
+                        "y": 13.9
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N12",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 8.1,
+                        "y": 13.9
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N13",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 8.1,
+                        "y": 18.6
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N14",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 12.4,
+                        "y": 4.9
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N15",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 3.1,
+                        "y": 14.9
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N16",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 3.1,
+                        "y": 9.1
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N17",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 4.0,
+                        "y": 19.0
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N18",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 4.0,
+                        "y": 20.5
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N19",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 9.5,
+                        "y": 18.0
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N20",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 9.5,
+                        "y": 19.5
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N21",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 1.5,
+                        "y": 13.2
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N22",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 3.0,
+                        "y": 13.2
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N23",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 11.5,
+                        "y": 2.5
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N24",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 4.5,
+                        "y": 4.0
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N25",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 6.0,
+                        "y": 4.0
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N26",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 7.5,
+                        "y": 4.0
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N27",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 10.3,
+                        "y": 3.8
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N28",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 10.9,
+                        "y": 6.4
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N29",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 6.6,
+                        "y": 18.6
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N30",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 6.6,
+                        "y": 20.1
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N31",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 8.1,
+                        "y": 17.1
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N32",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 6.6,
+                        "y": 12.4
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N33",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 9.6,
+                        "y": 12.4
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N34",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 9.6,
+                        "y": 15.4
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N35",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 3.1,
+                        "y": 5.9
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N36",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 4.6,
+                        "y": 5.9
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N37",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 6.6,
+                        "y": 5.9
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N38",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 8.1,
+                        "y": 5.9
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N39",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 8.1,
+                        "y": 8.9
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N40",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 9.6,
+                        "y": 7.4
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N41",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 11.0,
+                        "y": 16.5
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N42",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 3.0,
+                        "y": 11.7
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N43",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 12.4,
+                        "y": 7.9
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N44",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 12.4,
+                        "y": 17.1
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N45",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 9.6,
+                        "y": 10.9
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N46",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 11.1,
+                        "y": 8.9
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N47",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 7.833,
+                        "y": 2.5
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N48",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 8.1,
+                        "y": 15.5
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N49",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 12.4,
+                        "y": 6.4
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N50",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 9.6,
+                        "y": 13.9
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N51",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 11.04,
+                        "y": 13.46
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N52",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 11.06,
+                        "y": 11.94
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N53",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 12.4,
+                        "y": 10.967
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N54",
+                    "mapId": "Layout_17",
+                    "nodePosition": {
+                        "x": 12.4,
+                        "y": 15.567
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1"
+                        }
+                    ]
+                }
+            ],
+            "edges": [
+                {
+                    "edgeId": "E1",
+                    "startNodeId": "N1",
+                    "endNodeId": "N7",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E2",
+                    "startNodeId": "N1",
+                    "endNodeId": "N32",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E3",
+                    "startNodeId": "N1",
+                    "endNodeId": "N22",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E4",
+                    "startNodeId": "N2",
+                    "endNodeId": "N17",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E5",
+                    "startNodeId": "N2",
+                    "endNodeId": "N18",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E6",
+                    "startNodeId": "N3",
+                    "endNodeId": "N19",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E7",
+                    "startNodeId": "N3",
+                    "endNodeId": "N20",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E8",
+                    "startNodeId": "N3",
+                    "endNodeId": "N44",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E9",
+                    "startNodeId": "N3",
+                    "endNodeId": "N41",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E10",
+                    "startNodeId": "N4",
+                    "endNodeId": "N15",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E11",
+                    "startNodeId": "N4",
+                    "endNodeId": "N21",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E12",
+                    "startNodeId": "N4",
+                    "endNodeId": "N22",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E13",
+                    "startNodeId": "N5",
+                    "endNodeId": "N14",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E14",
+                    "startNodeId": "N5",
+                    "endNodeId": "N23",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E15",
+                    "startNodeId": "N6",
+                    "endNodeId": "N24",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E16",
+                    "startNodeId": "N6",
+                    "endNodeId": "N25",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E17",
+                    "startNodeId": "N6",
+                    "endNodeId": "N26",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E18",
+                    "startNodeId": "N6",
+                    "endNodeId": "N47",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E19",
+                    "startNodeId": "N7",
+                    "endNodeId": "N1",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E20",
+                    "startNodeId": "N7",
+                    "endNodeId": "N16",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E21",
+                    "startNodeId": "N7",
+                    "endNodeId": "N42",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E22",
+                    "startNodeId": "N7",
+                    "endNodeId": "N10",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E23",
+                    "startNodeId": "N8",
+                    "endNodeId": "N12",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E24",
+                    "startNodeId": "N8",
+                    "endNodeId": "N32",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E25",
+                    "startNodeId": "N8",
+                    "endNodeId": "N39",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E26",
+                    "startNodeId": "N8",
+                    "endNodeId": "N45",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E27",
+                    "startNodeId": "N9",
+                    "endNodeId": "N37",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E28",
+                    "startNodeId": "N9",
+                    "endNodeId": "N38",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E29",
+                    "startNodeId": "N9",
+                    "endNodeId": "N39",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E30",
+                    "startNodeId": "N10",
+                    "endNodeId": "N16",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E31",
+                    "startNodeId": "N10",
+                    "endNodeId": "N36",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E32",
+                    "startNodeId": "N10",
+                    "endNodeId": "N7",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E33",
+                    "startNodeId": "N11",
+                    "endNodeId": "N12",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E34",
+                    "startNodeId": "N11",
+                    "endNodeId": "N32",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E35",
+                    "startNodeId": "N11",
+                    "endNodeId": "N15",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E36",
+                    "startNodeId": "N12",
+                    "endNodeId": "N8",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E37",
+                    "startNodeId": "N12",
+                    "endNodeId": "N11",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E38",
+                    "startNodeId": "N12",
+                    "endNodeId": "N32",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E39",
+                    "startNodeId": "N12",
+                    "endNodeId": "N33",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E40",
+                    "startNodeId": "N12",
+                    "endNodeId": "N34",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E41",
+                    "startNodeId": "N12",
+                    "endNodeId": "N48",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E42",
+                    "startNodeId": "N13",
+                    "endNodeId": "N19",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E43",
+                    "startNodeId": "N13",
+                    "endNodeId": "N20",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E44",
+                    "startNodeId": "N13",
+                    "endNodeId": "N29",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E45",
+                    "startNodeId": "N13",
+                    "endNodeId": "N30",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E46",
+                    "startNodeId": "N13",
+                    "endNodeId": "N31",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E47",
+                    "startNodeId": "N14",
+                    "endNodeId": "N5",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E48",
+                    "startNodeId": "N14",
+                    "endNodeId": "N28",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E49",
+                    "startNodeId": "N14",
+                    "endNodeId": "N49",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E50",
+                    "startNodeId": "N15",
+                    "endNodeId": "N4",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E51",
+                    "startNodeId": "N15",
+                    "endNodeId": "N32",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E52",
+                    "startNodeId": "N15",
+                    "endNodeId": "N11",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E53",
+                    "startNodeId": "N16",
+                    "endNodeId": "N7",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E54",
+                    "startNodeId": "N16",
+                    "endNodeId": "N10",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E55",
+                    "startNodeId": "N16",
+                    "endNodeId": "N42",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E56",
+                    "startNodeId": "N16",
+                    "endNodeId": "N35",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E57",
+                    "startNodeId": "N17",
+                    "endNodeId": "N2",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E58",
+                    "startNodeId": "N17",
+                    "endNodeId": "N29",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E59",
+                    "startNodeId": "N18",
+                    "endNodeId": "N2",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E60",
+                    "startNodeId": "N18",
+                    "endNodeId": "N30",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E61",
+                    "startNodeId": "N18",
+                    "endNodeId": "N29",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E62",
+                    "startNodeId": "N19",
+                    "endNodeId": "N3",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E63",
+                    "startNodeId": "N19",
+                    "endNodeId": "N13",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E64",
+                    "startNodeId": "N19",
+                    "endNodeId": "N31",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E65",
+                    "startNodeId": "N19",
+                    "endNodeId": "N34",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E66",
+                    "startNodeId": "N20",
+                    "endNodeId": "N3",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E67",
+                    "startNodeId": "N20",
+                    "endNodeId": "N13",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E68",
+                    "startNodeId": "N20",
+                    "endNodeId": "N30",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E69",
+                    "startNodeId": "N21",
+                    "endNodeId": "N4",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E70",
+                    "startNodeId": "N21",
+                    "endNodeId": "N42",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E71",
+                    "startNodeId": "N22",
+                    "endNodeId": "N4",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E72",
+                    "startNodeId": "N22",
+                    "endNodeId": "N42",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E73",
+                    "startNodeId": "N22",
+                    "endNodeId": "N1",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E74",
+                    "startNodeId": "N23",
+                    "endNodeId": "N5",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E75",
+                    "startNodeId": "N23",
+                    "endNodeId": "N27",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E76",
+                    "startNodeId": "N23",
+                    "endNodeId": "N47",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E77",
+                    "startNodeId": "N24",
+                    "endNodeId": "N6",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E78",
+                    "startNodeId": "N24",
+                    "endNodeId": "N35",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E79",
+                    "startNodeId": "N24",
+                    "endNodeId": "N36",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E80",
+                    "startNodeId": "N25",
+                    "endNodeId": "N6",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E81",
+                    "startNodeId": "N25",
+                    "endNodeId": "N36",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E82",
+                    "startNodeId": "N25",
+                    "endNodeId": "N37",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E83",
+                    "startNodeId": "N26",
+                    "endNodeId": "N6",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E84",
+                    "startNodeId": "N26",
+                    "endNodeId": "N27",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E85",
+                    "startNodeId": "N26",
+                    "endNodeId": "N38",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E86",
+                    "startNodeId": "N27",
+                    "endNodeId": "N23",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E87",
+                    "startNodeId": "N27",
+                    "endNodeId": "N26",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E88",
+                    "startNodeId": "N27",
+                    "endNodeId": "N40",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E89",
+                    "startNodeId": "N28",
+                    "endNodeId": "N14",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E90",
+                    "startNodeId": "N28",
+                    "endNodeId": "N40",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E91",
+                    "startNodeId": "N28",
+                    "endNodeId": "N46",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E92",
+                    "startNodeId": "N29",
+                    "endNodeId": "N13",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E93",
+                    "startNodeId": "N29",
+                    "endNodeId": "N17",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E94",
+                    "startNodeId": "N29",
+                    "endNodeId": "N18",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E95",
+                    "startNodeId": "N30",
+                    "endNodeId": "N13",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E96",
+                    "startNodeId": "N30",
+                    "endNodeId": "N18",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E97",
+                    "startNodeId": "N30",
+                    "endNodeId": "N20",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E98",
+                    "startNodeId": "N31",
+                    "endNodeId": "N13",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E99",
+                    "startNodeId": "N31",
+                    "endNodeId": "N19",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E100",
+                    "startNodeId": "N31",
+                    "endNodeId": "N48",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E101",
+                    "startNodeId": "N32",
+                    "endNodeId": "N1",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E102",
+                    "startNodeId": "N32",
+                    "endNodeId": "N8",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E103",
+                    "startNodeId": "N32",
+                    "endNodeId": "N11",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E104",
+                    "startNodeId": "N32",
+                    "endNodeId": "N12",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E105",
+                    "startNodeId": "N32",
+                    "endNodeId": "N15",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E106",
+                    "startNodeId": "N33",
+                    "endNodeId": "N12",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E107",
+                    "startNodeId": "N33",
+                    "endNodeId": "N45",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E108",
+                    "startNodeId": "N33",
+                    "endNodeId": "N50",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E109",
+                    "startNodeId": "N34",
+                    "endNodeId": "N12",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E110",
+                    "startNodeId": "N34",
+                    "endNodeId": "N19",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E111",
+                    "startNodeId": "N34",
+                    "endNodeId": "N41",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E112",
+                    "startNodeId": "N34",
+                    "endNodeId": "N50",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E113",
+                    "startNodeId": "N35",
+                    "endNodeId": "N24",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E114",
+                    "startNodeId": "N35",
+                    "endNodeId": "N16",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E115",
+                    "startNodeId": "N36",
+                    "endNodeId": "N10",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E116",
+                    "startNodeId": "N36",
+                    "endNodeId": "N24",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E117",
+                    "startNodeId": "N36",
+                    "endNodeId": "N25",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E118",
+                    "startNodeId": "N37",
+                    "endNodeId": "N9",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E119",
+                    "startNodeId": "N37",
+                    "endNodeId": "N25",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E120",
+                    "startNodeId": "N38",
+                    "endNodeId": "N9",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E121",
+                    "startNodeId": "N38",
+                    "endNodeId": "N26",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E122",
+                    "startNodeId": "N38",
+                    "endNodeId": "N40",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E123",
+                    "startNodeId": "N39",
+                    "endNodeId": "N8",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E124",
+                    "startNodeId": "N39",
+                    "endNodeId": "N9",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E125",
+                    "startNodeId": "N39",
+                    "endNodeId": "N40",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E126",
+                    "startNodeId": "N39",
+                    "endNodeId": "N45",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E127",
+                    "startNodeId": "N40",
+                    "endNodeId": "N28",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E128",
+                    "startNodeId": "N40",
+                    "endNodeId": "N38",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E129",
+                    "startNodeId": "N40",
+                    "endNodeId": "N39",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E130",
+                    "startNodeId": "N40",
+                    "endNodeId": "N27",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E131",
+                    "startNodeId": "N41",
+                    "endNodeId": "N34",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E132",
+                    "startNodeId": "N41",
+                    "endNodeId": "N3",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E133",
+                    "startNodeId": "N41",
+                    "endNodeId": "N51",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E134",
+                    "startNodeId": "N42",
+                    "endNodeId": "N7",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E135",
+                    "startNodeId": "N42",
+                    "endNodeId": "N16",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E136",
+                    "startNodeId": "N42",
+                    "endNodeId": "N21",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E137",
+                    "startNodeId": "N42",
+                    "endNodeId": "N22",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E138",
+                    "startNodeId": "N43",
+                    "endNodeId": "N46",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E139",
+                    "startNodeId": "N43",
+                    "endNodeId": "N49",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E140",
+                    "startNodeId": "N43",
+                    "endNodeId": "N53",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E141",
+                    "startNodeId": "N44",
+                    "endNodeId": "N3",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E142",
+                    "startNodeId": "N44",
+                    "endNodeId": "N54",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E143",
+                    "startNodeId": "N45",
+                    "endNodeId": "N8",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E144",
+                    "startNodeId": "N45",
+                    "endNodeId": "N33",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E145",
+                    "startNodeId": "N45",
+                    "endNodeId": "N39",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E146",
+                    "startNodeId": "N45",
+                    "endNodeId": "N46",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E147",
+                    "startNodeId": "N46",
+                    "endNodeId": "N28",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E148",
+                    "startNodeId": "N46",
+                    "endNodeId": "N43",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E149",
+                    "startNodeId": "N46",
+                    "endNodeId": "N45",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E150",
+                    "startNodeId": "N46",
+                    "endNodeId": "N52",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E151",
+                    "startNodeId": "N47",
+                    "endNodeId": "N6",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E152",
+                    "startNodeId": "N47",
+                    "endNodeId": "N23",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E153",
+                    "startNodeId": "N48",
+                    "endNodeId": "N12",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E154",
+                    "startNodeId": "N48",
+                    "endNodeId": "N31",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E155",
+                    "startNodeId": "N49",
+                    "endNodeId": "N14",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E156",
+                    "startNodeId": "N49",
+                    "endNodeId": "N43",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E157",
+                    "startNodeId": "N50",
+                    "endNodeId": "N33",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E158",
+                    "startNodeId": "N50",
+                    "endNodeId": "N34",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E159",
+                    "startNodeId": "N51",
+                    "endNodeId": "N41",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E160",
+                    "startNodeId": "N51",
+                    "endNodeId": "N52",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E161",
+                    "startNodeId": "N52",
+                    "endNodeId": "N51",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E162",
+                    "startNodeId": "N52",
+                    "endNodeId": "N46",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E163",
+                    "startNodeId": "N53",
+                    "endNodeId": "N43",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E164",
+                    "startNodeId": "N53",
+                    "endNodeId": "N54",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E165",
+                    "startNodeId": "N54",
+                    "endNodeId": "N53",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E166",
+                    "startNodeId": "N54",
+                    "endNodeId": "N44",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "Vehicle_Type_1",
+                            "rotationAllowed": true,
+                            "orientationType": "TANGENTIAL",
+                            "rotationAtStartNodeAllowed": "BOTH",
+                            "rotationAtEndNodeAllowed": "BOTH"
+                        }
+                    ]
+                }
+            ],
+            "stations": [
+                {
+                    "stationId": "S1",
+                    "interactionNodeIds": [
+                        "N1"
+                    ],
+                    "stationName": "Station_1",
+                    "stationType": "PRODUCTION",
+                    "stationDescription": "OUTPUT",
+                    "stationPosition": {
+                        "x": 6,
+                        "y": 9.6,
+                        "theta": null
+                    }
+                },
+                {
+                    "stationId": "S2",
+                    "interactionNodeIds": [
+                        "N2"
+                    ],
+                    "stationName": "Station_2",
+                    "stationType": "PRODUCTION",
+                    "stationDescription": "INPUT",
+                    "stationPosition": {
+                        "x": 1.1,
+                        "y": 20.5,
+                        "theta": null
+                    }
+                },
+                {
+                    "stationId": "S3",
+                    "interactionNodeIds": [
+                        "N3"
+                    ],
+                    "stationName": "Station_3",
+                    "stationType": "PRODUCTION",
+                    "stationDescription": "OUTPUT",
+                    "stationPosition": {
+                        "x": 11,
+                        "y": 20.9,
+                        "theta": null
+                    }
+                },
+                {
+                    "stationId": "S4",
+                    "interactionNodeIds": [
+                        "N4"
+                    ],
+                    "stationName": "Station_4",
+                    "stationType": "PRODUCTION",
+                    "stationDescription": "INPUT",
+                    "stationPosition": {
+                        "x": 1.5,
+                        "y": 16.5,
+                        "theta": null
+                    }
+                },
+                {
+                    "stationId": "S5",
+                    "interactionNodeIds": [
+                        "N5"
+                    ],
+                    "stationName": "Station_5",
+                    "stationType": "PRODUCTION",
+                    "stationDescription": "INPUT",
+                    "stationPosition": {
+                        "x": 13.0,
+                        "y": 1.1,
+                        "theta": null
+                    }
+                },
+                {
+                    "stationId": "S6",
+                    "interactionNodeIds": [
+                        "N6"
+                    ],
+                    "stationName": "Station_6",
+                    "stationType": "PRODUCTION",
+                    "stationDescription": "INPUT",
+                    "stationPosition": {
+                        "x": 6.0,
+                        "y": 1.1,
+                        "theta": null
+                    }
+                }
+            ]
+        }
+    ]
+}

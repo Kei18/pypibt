@@ -4,6 +4,7 @@ import os
 from pypibt import (
     PIBT,
     MAPD,
+    GraphMAPD,
     get_grid,
     get_scenario,
     is_valid_mapf_solution,
@@ -18,9 +19,9 @@ if __name__ == "__main__":
     parser.add_argument(
         "--mode",
         type=str,
-        choices=["mapf", "mapd"],
+        choices=["mapf", "mapd", "graph-mapd"],
         default="mapf",
-        help="Problem type: MAPF (one-shot tasks) or MAPD (continuous pickup/delivery)"
+        help="Problem type: MAPF (grid one-shot), MAPD (grid pickup/delivery), Graph MAPD (graph-based pickup/delivery)"
     )
     
     # Common arguments
@@ -56,16 +57,40 @@ if __name__ == "__main__":
     parser.add_argument("-s", "--seed", type=int, default=1, help="Random seed")
     parser.add_argument("--max-timestep", type=int, default=1000, help="Maximum timesteps (default: 1000)")
     parser.add_argument("--max-comp-time", type=int, default=60000, help="Maximum computation time in milliseconds (default: 60000)")
-    
+
+    # Graph-MAPD-mode-specific arguments
+    parser.add_argument(
+        "--lif-file",
+        type=str,
+        default=os.path.join(
+            os.path.dirname(__file__), "assets", "graph-mapd", "lif_example.json"
+        ),
+        help="LIF JSON layout file (required for --mode graph-mapd)"
+    )
+    parser.add_argument(
+        "--transport-matrix",
+        type=str,
+        default=os.path.join(
+            os.path.dirname(__file__), "assets", "graph-mapd", "transport_example.json"
+        ),
+        help="Transport matrix JSON file (required for --mode graph-mapd)"
+    )
+    parser.add_argument(
+        "--task-num",
+        type=int,
+        default=50,
+        help="Total number of tasks to generate in graph-mapd mode (default: 50)"
+    )
+
     args = parser.parse_args()
-    
+
     # Set default scenario files if not provided
     if args.scen_file is None:
         if args.mode == "mapf":
             args.scen_file = os.path.join(
                 os.path.dirname(__file__), "assets", "mapf", "random-32-32-10-random-1.scen"
             )
-        else:  # mapd
+        elif args.mode == "mapd":
             args.scen_file = os.path.join(
                 os.path.dirname(__file__), "assets", "mapd", "task-config.txt"
             )
@@ -73,7 +98,7 @@ if __name__ == "__main__":
     if args.mode == "mapf":
         # MAPF mode: one-shot path finding
         print("=== MAPF Mode ===")
-        
+
         # Define problem instance
         grid = get_grid(args.map_file)
         starts, goals = get_scenario(args.scen_file, args.num_agents)
@@ -134,4 +159,41 @@ if __name__ == "__main__":
         
         # Save result
         mapd.save_solution(args.output_file)
+        print(f"Solution saved to: {args.output_file}")
+
+    elif args.mode == "graph-mapd":
+        # Graph MAPD mode: directed-graph fleet simulation with transport matrix
+        print("=== Graph MAPD Mode ===")
+        print(f"LIF file:          {args.lif_file}")
+        print(f"Transport matrix:  {args.transport_matrix}")
+
+        graph_mapd = GraphMAPD(
+            lif_file=args.lif_file,
+            transport_matrix_file=args.transport_matrix,
+            num_agents=args.num_agents,
+            task_num=args.task_num,
+            seed=args.seed,
+        )
+
+        print(f"Graph nodes:       {graph_mapd.graph.num_nodes}")
+        print(f"Stations:          {list(graph_mapd.graph.station_nodes.keys())}")
+        print(f"Agents:            {graph_mapd.N}")
+        print(f"Total tasks:       {graph_mapd.instance.task_num}")
+
+        import time
+        start_time = time.perf_counter()
+        solution = graph_mapd.run(
+            max_timestep=args.max_timestep, max_comp_time=args.max_comp_time
+        )
+        comp_time = time.perf_counter() - start_time
+
+        s = graph_mapd.stats
+        print(f"\nCompleted tasks:   {s['tasks_completed']}/{s['tasks_requested']}")
+        print(f"Timesteps:         {s['timesteps']}")
+        print(f"Makespan:          {s['makespan_s']:.2f} s")
+        print(f"Throughput:        {s['throughput_tasks_per_s']:.4f} tasks/s")
+        print(f"Total distance:    {s['total_distance_m']:.2f} m")
+        print(f"Computation time:  {comp_time:.2f}s")
+
+        graph_mapd.save_solution(args.output_file)
         print(f"Solution saved to: {args.output_file}")
