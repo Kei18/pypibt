@@ -194,12 +194,3 @@ output.txt
 # Claude Code specific files
 .mcp.json
 CLAUDE.md
-
-# Evaluation/experiment scripts (paper-specific, not for public release)
-scripts/
-
-# Graph MAPD asset exclusions — keep only example files
-assets/graph-mapd/*.png
-assets/graph-mapd/output_*.txt
-assets/graph-mapd/lif_*env*.json
-assets/graph-mapd/transport_env*.json

@@ -499,7 +499,7 @@ class GraphMAPD:
         # at either boundary.  The timestep-based snapshots for move/wait/
         # distance cannot be made equally exact (they are inherently per-step),
         # but the task-count mismatch they cause is at most Â±1 step's worth of
-        # completions â€” negligible for the physical metrics.
+        # completions  negligible for the physical metrics.
         window_completions = self.completed_tasks[warmup_tasks:target_tasks]
         tasks_done = len(window_completions)
 
@@ -607,7 +607,7 @@ class GraphMAPD:
             if de is not None:
                 de_id = id(de)
                 if de_id in occupied_dead_ends:
-                    continue  # already one agent in this corridor â€” skip
+                    continue  # already one agent in this corridor  skip
                 occupied_dead_ends.add(de_id)
             chosen.append(node)
 
@@ -672,7 +672,7 @@ class GraphMAPD:
             if task is None:
                 # If idle inside a dead-end corridor, move toward the entrance
                 # to clear it; otherwise agents block the corridor indefinitely.
-                # Do NOT reset elapsed here â€” accumulated urgency is needed so
+                # Do NOT reset elapsed here  accumulated urgency is needed so
                 # the agent can win priority ties and actually exit.
                 de = self._node_to_dead_end.get(agent.v_now)
                 if de is not None:
@@ -694,7 +694,7 @@ class GraphMAPD:
                 continue
 
             if agent.v_now == task.node_pickup:
-                # Already at the pickup node â€” go directly to delivery
+                # Already at the pickup node  go directly to delivery
                 self._assign_task(agent, task)
             else:
                 agent.target_task = task
@@ -843,17 +843,20 @@ class GraphMAPD:
                 ak = agent_list[ak_id]
                 if ak is not None and ak.v_next is None:
                     # Priority inheritance: plan for the blocking agent first.
-                    # If it fails, release our stale reservation on u so other
-                    # agents are not misled into thinking u is taken.
+                    # If it fails, ak will stay at u (ak.v_next = ak.v_now = u).
+                    # Re-assign occupied_next[u] to ak instead of clearing it to
+                    # NIL: a lower-priority agent planned later would otherwise
+                    # see a free slot and move to u, causing a vertex collision
+                    # with the stuck ak.
                     if not self._func_pibt(ak, agent_list, agent, locked_entrances):
-                        self.occupied_next[u] = self.NIL
+                        self.occupied_next[u] = ak.id  # ak stays; reclaim u for it
                         agent.v_next = None
                         continue
 
             return True
 
         # No valid move found: stay in place.
-        # Only write if the slot is genuinely free â€” a higher-priority agent
+        # Only write if the slot is genuinely free  a higher-priority agent
         # (e.g. tier-3 interior agent) may have already claimed this node.
         # Overwriting that reservation corrupts its planned exit and causes
         # permanent gridlock.  We still set v_next = v_now so the agent is
@@ -915,10 +918,10 @@ def _detect_dead_ends(graph: LifGraph) -> list[DeadEnd]:
 
     Algorithm:
 
-    1. Find all *tip* nodes â€” nodes with exactly **1 outgoing edge**.
+    1. Find all *tip* nodes  nodes with exactly **1 outgoing edge**.
     2. From each tip, trace forward: if the next node has exactly **2
        outgoing edges** it is part of the corridor interior.  Continue
-       until a node with **3 or more outgoing edges** is reached â€” that
+       until a node with **3 or more outgoing edges** is reached  that
        node is the corridor *entrance*.
     3. The interior is all nodes from the tip up to (but not including)
        the entrance.  While any agent occupies the interior the entrance
@@ -956,7 +959,7 @@ def _detect_dead_ends(graph: LifGraph) -> list[DeadEnd]:
                 interior_set.add(nxt)
                 current = nxt
             else:
-                # Another tip or isolated node â€” no valid entrance
+                # Another tip or isolated node  no valid entrance
                 break
 
         if entrance == -1:
@@ -1011,10 +1014,38 @@ def save_graph_mapd_solution(
     completed_tasks = completed_tasks or []
     stats = stats or {}
 
+    dirname = os.path.dirname(output_file)
+    if dirname:
+        os.makedirs(dirname, exist_ok=True)
 
-# ---------------------------------------------------------------------------
-# Validation
-# ---------------------------------------------------------------------------
+    def nid(idx: NodeIdx) -> str:
+        return graph.node_ids[idx]
+
+    N = len(solution[0]) if solution else 0
+    T = len(solution)
+
+    with open(output_file, "w", encoding="utf-8") as f:
+        # Header
+        f.write(f"agents={N}\n")
+        f.write(f"timesteps={T - 1}\n")
+        f.write(f"tasks_completed={stats.get('tasks_completed', len(completed_tasks))}\n")
+        f.write(f"tasks_requested={stats.get('tasks_requested', '')}\n")
+        f.write(f"total_distance_m={stats.get('total_distance_m', '')}\n")
+        f.write(f"throughput_tasks_per_s={stats.get('throughput_tasks_per_s', '')}\n")
+        # Per-agent trajectory: one row per agent
+        for agent_id in range(N):
+            row = ",".join(nid(solution[t][agent_id]) for t in range(T))
+            f.write(f"{agent_id}:{row}\n")
+        # Task log
+        if completed_tasks:
+            f.write("# tasks: id,agent_id,from_station,to_station,"
+                    "pickup_node,delivery_node,t_appear,t_finished\n")
+            for agent_id, task in completed_tasks:
+                f.write(
+                    f"{task.id},{agent_id},{task.station_from},{task.station_to},"
+                    f"{nid(task.node_pickup)},{nid(task.node_delivery)},"
+                    f"{task.timestep_appear},{task.timestep_finished}\n"
+                )
 
 def is_valid_graph_mapd_solution(
     graph: LifGraph,
@@ -1082,7 +1113,7 @@ def is_valid_graph_mapd_solution(
                 if v_i == v_j:
                     if verbose:
                         print(
-                            f"Validation Error: vertex collision at t={t} â€”"
+                            f"Validation Error: vertex collision at t={t} "
                             f" agents {i} and {j} both at {graph.node_ids[v_i]}"
                         )
                     return False
@@ -1094,7 +1125,7 @@ def is_valid_graph_mapd_solution(
                     if v_i == v_j_prev and v_j == v_i_prev:
                         if verbose:
                             print(
-                                f"Validation Error: edge collision at t={t} â€”"
+                                f"Validation Error: edge collision at t={t} "
                                 f" agent {i}: {graph.node_ids[v_i_prev]}â†’{graph.node_ids[v_i]},"
                                 f" agent {j}: {graph.node_ids[v_j_prev]}â†’{graph.node_ids[v_j]}"
                             )
@@ -1115,7 +1146,7 @@ def is_valid_graph_mapd_solution(
             if verbose:
                 print(
                     f"Validation Error: task {task.id} (agent {agent_id})"
-                    f" â€” pickup t={t_pickup}, delivery t={t_delivery}"
+                    f" pickup t={t_pickup}, delivery t={t_delivery}"
                 )
             return False
 
